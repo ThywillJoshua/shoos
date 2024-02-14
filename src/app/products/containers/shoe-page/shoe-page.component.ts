@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [`shoe-page.component.scss`],
 })
 export class ShoePageComponent implements OnInit {
+  yellowBoxColor = 'blue';
   constructor() {}
 
   ngOnInit() {}

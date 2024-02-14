@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [`cart-page.component.scss`],
 })
 export class CartPageComponent implements OnInit {
+  yellowBoxColor = 'orange';
+
   constructor() {}
 
   ngOnInit() {}

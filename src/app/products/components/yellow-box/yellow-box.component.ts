@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-yellow-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./yellow-box.component.scss'],
 })
 export class YellowBoxComponent implements OnInit {
+  @Input() color: string = 'yellow';
+
   constructor() {}
 
   ngOnInit() {}
