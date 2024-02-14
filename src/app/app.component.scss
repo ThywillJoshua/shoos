@@ -7,4 +7,13 @@
   min-height: 100vh;
 
   padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  & .links {
+    display: flex;
+    gap: 20px;
+  }
 }
