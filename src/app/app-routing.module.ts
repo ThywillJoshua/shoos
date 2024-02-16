@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ShoesListPageComponent } from './products/containers/shoes-list-page/shoes-list-page.component';
-import { ShoePageComponent } from './products/containers/shoe-page/shoe-page.component';
-import { CartPageComponent } from './products/containers/cart-page/cart-page.component';
+import { ShoesListPageComponent } from './shoes/containers/shoes-list-page/shoes-list-page.component';
+import { ShoePageComponent } from './shoes/containers/shoe-page/shoe-page.component';
+import { CartPageComponent } from './shoes/containers/cart-page/cart-page.component';
 
 const routes: Routes = [
   {

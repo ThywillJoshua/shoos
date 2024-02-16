@@ -3,20 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ShoesListPageComponent } from './products/containers/shoes-list-page/shoes-list-page.component';
-import { ShoePageComponent } from './products/containers/shoe-page/shoe-page.component';
-import { YellowBoxComponent } from './products/components/yellow-box/yellow-box.component';
-import { CartPageComponent } from './products/containers/cart-page/cart-page.component';
-
+import { ShoeModule } from './shoes/shoes.module';
 @NgModule({
-  declarations: [
-    AppComponent,
-    ShoesListPageComponent,
-    ShoePageComponent,
-    CartPageComponent,
-    YellowBoxComponent,
-  ],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, ShoeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
