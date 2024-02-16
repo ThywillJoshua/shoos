@@ -8,4 +8,4 @@ import { usersRoutingModule } from './users-routing.module';
   imports: [usersRoutingModule],
   exports: [],
 })
-export class ShoeModule {}
+export class UserModule {}
