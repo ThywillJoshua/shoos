@@ -3,6 +3,7 @@ import { ShoesListPageComponent } from './containers/shoes-list-page/shoes-list-
 import { ShoePageComponent } from './containers/shoe-page/shoe-page.component';
 import { CartPageComponent } from './containers/cart-page/cart-page.component';
 import { YellowBoxComponent } from './components/yellow-box/yellow-box.component';
+import { ShoesRoutingModule } from './shoes-routing.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,7 @@ import { YellowBoxComponent } from './components/yellow-box/yellow-box.component
     CartPageComponent,
     YellowBoxComponent,
   ],
-  imports: [],
+  imports: [ShoesRoutingModule],
   exports: [],
 })
 export class ShoeModule {}
