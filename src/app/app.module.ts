@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ShoeModule } from './shoes/shoes.module';
 import { UserModule } from './users/users.module';
-import { ErrorModule } from './errors/error.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +14,7 @@ import { ErrorModule } from './errors/error.module';
     AppRoutingModule,
     ShoeModule,
     UserModule,
-    ErrorModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
