@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { SharedRoutingModule } from './shared-routing.module';
-import { NotFoundPageComponent } from './containers/not-found-page/not-found-page.component';
-import { HomePageComponent } from './containers/home-page/home-page.component';
+import { NavComponent } from './components/nav/nav.component';
 
 @NgModule({
-  declarations: [HomePageComponent, NotFoundPageComponent],
+  declarations: [NavComponent],
   imports: [SharedRoutingModule],
-  exports: [],
+  exports: [NavComponent],
 })
 export class SharedModule {}
