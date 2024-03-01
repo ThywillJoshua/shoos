@@ -1,18 +1,28 @@
 .nav-container {
   margin-top: 0px;
+  background-color: #ceeecd78;
+  max-width: 100%;
+  height: 80px;
 }
 
 .nav-container-wrapper {
   max-width: 1100px;
   max-height: 100px;
-  background-color: rgb(107, 130, 114);
-  margin: auto;
+  background-color: #ceeecd78;
+  height: 80px;
   padding: 10px;
+  margin-left: 201px;
+}
+.nav-container-wrapper-logo {
+  position: absolute;
+  padding: 16px 0;
+  left: 220px;
 }
 .nav-container-wrapper-links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding: 16px;
   gap: 30px;
   list-style-type: none;
   font-size: 20px;
@@ -21,6 +31,7 @@
 .nav-container-wrapper-links li a {
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 .nav-container-wrapper-links li a:hover {
   text-decoration: underline;
